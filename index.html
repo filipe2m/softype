@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SOFTYPE</title>
+
+    <link
+      rel="shortcut icon"
+      href="images/favicon/favicon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">
+          <span><sup>&lt;</sup><sub>&gt;</sub></span
+          >SOFTYPE<span>.</span>
+        </a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">home</a></li>
+            <li><a class="title" href="#about">about</a></li>
+            <li><a class="title" href="#technologies">technologies</a></li>
+            <li><a class="title" href="#team">team</a></li>
+            <li><a class="title" href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <p></p>
+            <a class="button" href="#">Lorem ipsum dolor</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img src="images/office/computer.jpg" alt="computer" />
+          </div>
+          <div class="text">
+            <h2 class="title"><span class="point">.</span>about</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi
+              incidunt consectetur dignissimos quod voluptatibus voluptatum
+              doloribus facere rerum, nemo earum minus vitae accusamus. Eaque
+              magni soluta nobis facere ut porro.
+            </p>
+            <br />
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              aperiam sit iste, magni, quia fuga placeat recusandae voluptates
+              aut laborum eius voluptate, iusto quam accusamus praesentium.
+              Harum omnis ducimus ad?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime,
+              atque obcaecati, maiores itaque nulla nihil sed vitae nostrum ad
+              consectetur voluptatum numquam officia ea. Minus iusto illo quam
+              excepturi quasi.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <section class="section" id="technologies">
+        <div class="container grid">
+          <header>
+            <h2 class="title"><span class="point">.</span>technologies</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              ipsum perferendis odio delectus inventore ratione. Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptate, quos.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <img src="images/technologies/angular.svg" alt="angular" />
+              <h3 class="title">Angular</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Dignissimos quod asperiores nulla autem tenetur ea?
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/technologies/nodejs.svg" alt="nodejs" />
+              <h3 class="title">NodeJS</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur temporibus asperiores, rem facilis maxime natus
+                expedita eius!
+              </p>
+            </div>
+            <div class="card">
+              <img src="images/technologies/typescript.svg" alt="typescript" />
+              <h3 class="title">Typescript</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+                nulla qui cupiditate asperiores eius officiis eligendi?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+      <section class="section" id="team">
+        <div class="container grid">
+          <header>
+            <h2 class="title"><span class="point">.</span>team</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+              ipsum perferendis odio delectus inventore ratione. Lorem, ipsum
+              dolor sit amet consectetur adipisicing elit. Voluptate, quos.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <img src="images/team/marta.svg" alt="marta avatar" />
+              <h3 class="title">Marta</h3>
+              <h5 class="title-position">cofounder / ceo</h5>
+              <p id="martaJokeSetup"></p>
+              <br />
+              <p id="martaJokeDelivery"></p>
+            </div>
+            <div class="card">
+              <img src="images/team/sofia.svg" alt="sofia avatar" />
+              <h3 class="title">Sofia</h3>
+              <h5 class="title-position">cofounder / cto</h5>
+              <p id="sofiaJokeSetup"></p>
+              <br />
+              <p id="sofiaJokeDelivery"></p>
+            </div>
+            <div class="card">
+              <img src="images/team/pedro.svg" alt="pedro avatar" />
+              <h3 class="title">Pedro</h3>
+              <h5 class="title-position">lead developer</h5>
+              <p id="pedroJokeSetup"></p>
+              <br />
+              <p id="pedroJokeDelivery"></p>
+            </div>
+            <div class="card">
+              <img src="images/team/filipe.svg" alt="filipe avatar" />
+              <h3 class="title">Filipe</h3>
+              <h5 class="title-position">baby developer</h5>
+              <p id="filipeJokeSetup"></p>
+              <br />
+              <p id="filipeJokeDelivery"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider-2"></div>
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title"><span class="point">.</span>get in touch</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+              ducimus veritatis voluptas itaque.
+            </p>
+            <a href="" class="button"> contact us </a>
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li>+351 910 000 000</li>
+              <li>Rua Arquitecto Lobão Vital 172, 4200-374 Porto</li>
+              <li>hello@softype.pt</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="divider-1"></div>
+    </main>
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="copyright">
+          <a class="logo" href="#home"
+            ><span><sup>&lt;</sup><sub>&gt;</sub></span
+            >SOFTYPE<span>.</span></a
+          >
+          <p>©2022 SOFTYPE</p>
+          <p>All rights reserved.</p>
+        </div>
+        <div class="social grid">
+          <a href="https://www.linkedin.com" target="_blank">
+            <img src="images/social/linkedin.svg" alt="linkedin" />
+          </a>
+          <a href="https://www.github.com" target="_blank">
+            <img src="images/social/github.svg" alt="github" />
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+            <img src="images/social/facebook.svg" alt="facebook" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
